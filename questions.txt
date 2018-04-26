@@ -1,0 +1,91 @@
+1.  ?- father(X, 'Queen Elizabeth II').
+    X = 'King George VI'.
+
+2.  ?- grandmother(X, 'Queen Elizabeth II').
+    X = 'Queen Mary'.
+
+3.  ?- grandfather(X, 'Queen Elizabeth II').
+    X = 'King George V'.
+
+4.  ?- grandparent(X, 'Queen Elizabeth II').
+    X = 'King George V' ;
+    X = 'Queen Mary'.
+
+5.  ?- grandparent('Queen Elizabeth II', X).
+    X = 'Prince William' ;
+    X = 'Prince Henry'.
+
+6.  ?- sibling(X, 'Queen Elizabeth II').
+    X = 'Princess Margaret'.
+
+7.  ?- son(X, 'Queen Elizabeth II').
+    X = 'Prince Charles' ;
+    X = 'Prince Andrew' ;
+    X = 'Prince Edward'.
+
+8.  ?- daughter(X, 'Queen Elizabeth II').
+    X = 'Princess Anne'.
+
+9.  ?- aunt(X, 'Lady Diana Spencer').
+    false.
+
+10. ?- spouse(X, 'Prince William').
+    X = 'Catherine Middleton'.
+
+11. ?- ancestor(X, 'Prince Henry').
+    X = 'Prince Charles' ;
+    X = 'Lady Diana Spencer' ;
+    X = 'Queen Elizabeth II' ;
+    X = 'Prince Philip' ;
+    X = 'King George VI' ;
+    X = 'Lady Elizabeth Bowes-Lyon' ;
+    X = 'King George V' ;
+    X = 'Queen Mary' ;
+    X = 'King Edward VII' ;
+    X = 'Princess Alexandra of Denmark' ;
+    X = 'Prince Albert' ;
+    X = 'Queen Victoria'.
+
+12. ?- descendant('Queen Victoria', Y).
+    false.
+
+13. ?- older('Prince Henry', 'Prince William').
+    false.
+
+14. ?- older(X, 'Queen Elizabeth II').          % Assuming age is determined by birthdate alone %
+    X = 'Queen Victoria' ;
+    X = 'Princess Alexandra of Denmark' ;
+    X = 'Queen Mary' ;
+    X = 'Mrs Simpson' ;
+    X = 'Lady Elizabeth Bowes-Lyon' ;
+    X = 'Prince Albert' ;
+    X = 'King Edward VII' ;
+    X = 'King George V' ;
+    X = 'King Edward VIII' ;
+    X = 'King George VI' ;
+    X = 'Prince Philip'.
+
+15. ?- regentWhenBorn(X, 'Queen Elizabeth II').
+    X = 'Lady Diana Spencer' ;
+    X = 'Catherine Middleton' ;
+    X = 'Prince Andrew' ;
+    X = 'Prince Edward' ;
+    X = 'Prince William' ;
+    X = 'Prince Henry' ;
+    X = 'Prince George' ;
+    X = 'Princess Charlotte' ;
+    X = 'Viscount Linley' ;
+    X = 'Lady Sarah Chatto'.
+
+16. Prolog is a very interesting and powerful language that allows for unique oppritunities for problem solving. The entire scheme of predicate logic on which Prolog rests is very
+    intriuging and allows for very complicated problems to be quickly solved using very small ammounts of code. 
+
+17. For how powerful the language is, there are many problems that are made more complicated and difficult by the forced use of predicate logic. An example of this is attempting to write a map
+    rule. Because of this, I feel that the language, while it has it's purpose and niche, is not the best language I've used. That said, for very complex logical problems, this is the best 
+    language in my opinion. 
+
+18. I enjoyed this lab very much. Of the parts of the lab, I enjoyed finding the solutions to the problems outlined in the lab.
+
+19. I spend approximently three hours on the lab work, and about six hours having fun with Prolog, testing out aspects of Prolog.
+
+20. I will definitely try to use Prolog again, however I do not feel that I will have many oppritunities to utilize this every fun language. 
