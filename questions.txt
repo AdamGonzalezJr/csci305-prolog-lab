@@ -89,3 +89,11 @@
 19. I spend approximently three hours on the lab work, and about six hours having fun with Prolog, testing out aspects of Prolog.
 
 20. I will definitely try to use Prolog again, however I do not feel that I will have many oppritunities to utilize this every fun language. 
+
+EC1:?- cousin(X, 'Prince Charles').
+    X = 'Viscount Linley' ;
+    X = 'Lady Sarah Chatto'.
+
+EC2:?- cousin('Prince Charles', X).
+    X = 'Viscount Linley' ;
+    X = 'Lady Sarah Chatto'.
