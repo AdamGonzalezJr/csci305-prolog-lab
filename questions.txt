@@ -52,18 +52,8 @@
 13. ?- older('Prince Henry', 'Prince William').
     false.
 
-14. ?- older(X, 'Queen Elizabeth II').          % Assuming age is determined by birthdate alone %
-    X = 'Queen Victoria' ;
-    X = 'Princess Alexandra of Denmark' ;
-    X = 'Queen Mary' ;
-    X = 'Mrs Simpson' ;
-    X = 'Lady Elizabeth Bowes-Lyon' ;
-    X = 'Prince Albert' ;
-    X = 'King Edward VII' ;
-    X = 'King George V' ;
-    X = 'King Edward VIII' ;
-    X = 'King George VI' ;
-    X = 'Prince Philip'.
+14. ?- older(X, 'Queen Elizabeth II').
+    false.
 
 15. ?- regentWhenBorn(X, 'Queen Elizabeth II').
     X = 'Lady Diana Spencer' ;
